@@ -5,12 +5,21 @@
     <title>我的第一个网页</title>
     <style type="text/css">
         @keyframes myAnima {
-            from{
-                opacity: 0;}
-            to{ opacity: 100;}
-
+            0% {opacity: 0;}
+            100% {opacity: 100;}
         }
-        h1{
+        @keyframes FirstLine {
+            0% {opacity: 0; color: #000;}
+            25% {opacity: 100;color: #A01;}
+            90% {opacity: 100;color: #50F;}
+            100% {opacity: 0; color: #000;}
+        }
+        #firstline{
+            animation: FirstLine 5s infinite;
+            font-size: 20px;
+        }
+
+        h1 {
             animation: myAnima 2s infinite;
         }
     </style>
@@ -18,6 +27,8 @@
 <body>
 <h1>这是一个animation的Test</h1>
 <p>许嵩-最佳歌手</p>
-<audio src="resource/music/BGM.mp3" controls="controls" autoplay="autoplay" >删除controls，取消调节功能</audio>
+<a id="firstline">我会变色~</a>
+<audio src="resource/music/BGM.mp3" controls="controls" autoplay="autoplay" style="width: 400px">删除controls，取消调节功能
+</audio>
 </body>
 </html>

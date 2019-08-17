@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+page {
+    height: 100%;
+    width: 100%;
+    font-size: 80px;
+    position: absolute;
+    text-align: center;
+    padding-top: 45%;
+    /*animation:season 3s infinite;*/
+}
+
+#c {
+    background-color: #FFF;
+    color: lightsalmon;
+    animation: c 5s infinite;
+}
+
+#x {
+    color: #18cc86;
+    background-color: #FFF;
+    animation: x 5s infinite;
+
+}
+
+#q {
+    color: #ccb829;
+    background-color: #FFF;
+    animation: q 5s infinite;
+}
+
+#d {
+    color: #e2b9e5;
+    background-color: #FFF;
+    animation: d 5s infinite;
+}
+
+@keyframes season {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 100
+    }
+}
+
+@keyframes c {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 100
+    }
+    50% {
+        opacity: 0
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes x {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 100
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes q {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    75% {
+        opacity: 100
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes d {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 100
+    }
+}
+
