@@ -10,7 +10,7 @@ page {
     font-size: 80px;
     position: absolute;
     text-align: center;
-    padding-top: 45%;
+    padding-top: 5%;
     /*animation:season 3s infinite;*/
 }
 
@@ -18,25 +18,34 @@ page {
     background-color: #FFF;
     color: lightsalmon;
     animation: c 5s infinite;
+    background-image: url("resource/img/chun.jpg");
 }
 
 #x {
     color: #18cc86;
     background-color: #FFF;
     animation: x 5s infinite;
-
+    background-image: url("resource/img/xia.jpg");
 }
 
 #q {
     color: #ccb829;
     background-color: #FFF;
     animation: q 5s infinite;
+    background-image: url("resource/img/qiu.jpg");
 }
 
 #d {
     color: #e2b9e5;
     background-color: #FFF;
     animation: d 5s infinite;
+    background-image: url("resource/img/dong.jpg");
+}
+
+#z {
+    font-size: 36px;
+    display: block;
+    animation: z 5s infinite;
 }
 
 @keyframes season {
@@ -46,6 +55,25 @@ page {
     100% {
         opacity: 100
     }
+}
+
+@keyframes z {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    75% {
+        opacity: 0
+    }
+    100% {
+        opacity: 100
+    }
+
 }
 
 @keyframes c {
