@@ -18,34 +18,50 @@ page {
     background-color: #FFF;
     color: lightsalmon;
     animation: c 5s infinite;
-    background-image: url("resource/img/chun.jpg");
+    background-image: url("../img/chun.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  500px 300px;
 }
 
 #x {
     color: #18cc86;
     background-color: #FFF;
     animation: x 5s infinite;
-    background-image: url("resource/img/xia.jpg");
+    background-image: url("../img/xia.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  500px 300px;
+
 }
 
 #q {
     color: #ccb829;
     background-color: #FFF;
     animation: q 5s infinite;
-    background-image: url("resource/img/qiu.jpg");
+    background-image: url("../img/qiu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  400px 700px;
+
 }
 
 #d {
     color: #e2b9e5;
     background-color: #FFF;
     animation: d 5s infinite;
-    background-image: url("resource/img/dong.jpg");
+    background-image: url("../img/dong.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  500px 300px;
 }
 
 #z {
-    font-size: 36px;
-    display: block;
-    animation: z 5s infinite;
+    font-size: 80px;
+    text-align: center;
+    color: #e2b9e5;
+    background-color: #FFF;
+    animation: d 5s infinite;
 }
 
 @keyframes season {
